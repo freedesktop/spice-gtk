@@ -1,0 +1,357 @@
+# Czech translations for spice-gtk package.
+# Copyright (C) 2009-2019 Red Hat, Inc.
+# This file is distributed under the same license as the spice-gtk package.
+# Silence Zhou <silence_zhou@126.com>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: spice-gtk master\n"
+"Report-Msgid-Bugs-To: spice-devel@lists.freedesktop.org\n"
+"POT-Creation-Date: 2020-03-11 12:17+0100\n"
+"PO-Revision-Date: 2021-06-30 15:51+0800\n"
+"Last-Translator: Silence Zhou <silence_zhou@126.com>\n"
+"Language-Team: Czech < >\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+"X-Generator: Gtranslator 3.32.0\n"
+
+#: src/channel-main.c:1912
+msgid "The spice agent cancelled the file transfer"
+msgstr "spice 代理取消了文件传输"
+
+#: src/channel-main.c:1916
+msgid "The spice agent reported an error during the file transfer"
+msgstr "spice 代理在文件传输过程中报告错误"
+
+#: src/channel-main.c:1923
+#, c-format
+msgid ""
+"File transfer failed due to lack of free space on remote machine (%s free, "
+"%s to transfer)"
+msgstr ""
+"由于远程计算机上缺乏空闲空间，文件传输失败(%s空闲，%s要传输)"
+
+#: src/channel-main.c:1931
+msgid ""
+"User's session is locked and cannot transfer files, unlock it and try again."
+msgstr ""
+"用户的会话被锁定，不能传输文件，解锁后重试。"
+
+#: src/channel-main.c:1936
+msgid "Session agent not connected."
+msgstr "会话代理未连接。"
+
+#: src/channel-main.c:1940
+msgid "File transfer is disabled."
+msgstr "文件传输被禁用。"
+
+#: src/channel-main.c:3350
+#, c-format
+msgid "The file transfer is disabled"
+msgstr "文件传输被禁用"
+
+#: src/desktop-integration.c:99
+msgid "Automounting has been inhibited for USB auto-redirecting"
+msgstr "自动加载被禁止用于USB自动重定向"
+
+#: src/spice-channel.c:1177
+msgid "Authentication failed"
+msgstr "认证失败"
+
+#: src/spice-channel.c:1195
+msgid "Authentication failed: password is too long"
+msgstr "认证失败: 密码过长"
+
+#: src/spice-channel.c:1200
+msgid "Authentication failed: wrong password?"
+msgstr "认证失败: 错误的密码?"
+
+#: src/spice-option.c:61
+msgid "--spice-color-depth is deprecated. Use guest's display settings instead"
+msgstr "--spice-color-depth 弃用。 使用客户的显示设置代替"
+
+#: src/spice-option.c:81
+#, c-format
+msgid ""
+"invalid effect name (%s), must be 'wallpaper', 'font-smooth', 'animation' or "
+"'all'"
+msgstr "无效的效果名称(%s)，必须是'wallpaper'， 'font-smooth'， 'animation'或'all'"
+
+#: src/spice-option.c:105
+#, c-format
+msgid "invalid channel name (%s), valid names: all, %s"
+msgstr "无效通道名称(%s)，有效名称:all，%s"
+
+#: src/spice-option.c:141
+#, c-format
+msgid "Image compression algorithm %s not supported"
+msgstr "不支持图像压缩算法 %s"
+
+#: src/spice-option.c:163
+msgid "Force the specified channels to be secured"
+msgstr "强制固定指定通道"
+
+#: src/spice-option.c:165
+msgid "Disable guest display effects"
+msgstr "禁用客户显示效果"
+
+#: src/spice-option.c:168
+msgid "Guest display color depth (deprecated)"
+msgstr "客户显示颜色深度(已弃用)"
+
+#: src/spice-option.c:170
+msgid "Truststore file for secure connections"
+msgstr "为安全连接信任存储文件"
+
+#: src/spice-option.c:170
+msgid "<file>"
+msgstr "<文件>"
+
+#: src/spice-option.c:172
+msgid "Subject of the host certificate (field=value pairs separated by commas)"
+msgstr "主机证书的主题(字段=值对，以逗号分隔)"
+
+#: src/spice-option.c:172
+msgid "<host-subject>"
+msgstr "<证书所有者 >"
+
+#: src/spice-option.c:174
+msgid "Disable audio support"
+msgstr "禁用音频支持"
+
+#: src/spice-option.c:176
+msgid "Enable smartcard support"
+msgstr "启用智能卡支持"
+
+#: src/spice-option.c:178
+msgid ""
+"Certificates to use for software smartcards (field=values separated by "
+"commas)"
+msgstr ""
+"用于软件智能卡的证书(字段=以逗号分隔的值) "
+
+#: src/spice-option.c:178
+msgid "<certificates>"
+msgstr "<证书>"
+
+#: src/spice-option.c:180
+msgid ""
+"Path to the local certificate database to use for software smartcard "
+"certificates"
+msgstr ""
+"软件智能卡证书使用的本地证书数据库的路径"
+
+#: src/spice-option.c:180
+msgid "<certificate-db>"
+msgstr "<证书-数据库>"
+
+#: src/spice-option.c:182
+msgid "Disable USB redirection support"
+msgstr "禁用USB重定向支持"
+
+#: src/spice-option.c:184
+msgid "Filter selecting USB devices to be auto-redirected when plugged in"
+msgstr "过滤选择USB设备被自动重定向时插入"
+
+#: src/spice-option.c:184 src/spice-option.c:186
+msgid "<filter-string>"
+msgstr "<筛选>"
+
+#: src/spice-option.c:186
+msgid "Filter selecting USB devices to redirect on connect"
+msgstr "筛选器选择要在连接时重定向的USB设备 "
+
+#: src/spice-option.c:188
+msgid "Name of ISO file or CD/DVD device to share"
+msgstr "共享的 ISO 或 CD/DVD 设备名称"
+
+#: src/spice-option.c:188
+msgid "<filename> (repeat allowed)"
+msgstr "<文件名>(允许重复)"
+
+#: src/spice-option.c:190
+msgid "Image cache size (deprecated)"
+msgstr "<filename>图像缓存大小(已弃用)(允许重复) "
+
+#: src/spice-option.c:190 src/spice-option.c:192
+msgid "<bytes>"
+msgstr "<字节>"
+
+#: src/spice-option.c:192
+msgid "Glz compression history size (deprecated)"
+msgstr "Glz 压缩历史大小(已弃用)"
+
+#: src/spice-option.c:194
+msgid "Shared directory"
+msgstr "共享目录"
+
+#: src/spice-option.c:194
+msgid "<dir>"
+msgstr "<目录>"
+
+#: src/spice-option.c:196
+msgid "Preferred image compression algorithm"
+msgstr "首选图像压缩算法"
+
+#: src/spice-option.c:204
+msgid "Enable Spice-GTK debugging"
+msgstr "使 Spice-GTK 调试"
+
+#: src/spice-option.c:206
+msgid "Display Spice-GTK version information"
+msgstr "显示 Spice-GTK 版本信息"
+
+#: src/spice-option.c:211
+msgid "Spice Options:"
+msgstr "Spice 选项:"
+
+#: src/spice-option.c:211
+msgid "Show Spice Options"
+msgstr "显示 Spice 选项"
+
+#: src/usb-device-manager.c:231 src/usb-device-manager.c:1427
+#: src/usb-device-manager.c:1491
+msgid "USB redirection support not compiled in"
+msgstr "未编译的 USB 重定向支持"
+
+#: src/usb-device-manager.c:1135
+msgid "No free USB channel"
+msgstr "没有空闲的 USB 通道"
+
+#: src/usb-device-manager.c:1373
+msgid "USB redirection is disabled"
+msgstr "USB 重定向已禁用"
+
+#: src/usb-device-manager.c:1379
+msgid "The connected VM is not configured for USB redirection"
+msgstr "未为 USB 重定向配置已连接的 VM"
+
+#: src/usb-device-manager.c:1402
+msgid "Some USB devices are blocked by host policy"
+msgstr "某些 USB 设备被主机策略阻止"
+
+#: src/usb-device-manager.c:1420
+msgid "There are no free USB channels"
+msgstr "没有空闲的 USB 通道"
+
+#: src/usb-device-widget.c:209
+#, fuzzy
+msgid "Select ISO file or device"
+msgstr "选择 ISO 文件或设备"
+
+#: src/usb-device-widget.c:212
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: src/usb-device-widget.c:213
+msgid "_Open"
+msgstr "打开(_O)"
+
+#: src/usb-device-widget.c:224
+#, c-format
+msgid "shared CD %s, %s"
+msgstr "共享光盘%s， %s"
+
+#: src/usb-device-widget.c:242
+msgid "SPICE CD (empty)"
+msgstr ""SPICE CD (空)""
+
+#: src/usb-device-widget.c:269
+msgid "Select USB devices to redirect"
+msgstr "选择重定向USB设备"
+
+#: src/usb-device-widget.c:449
+#, c-format
+msgid "Can't redirect: %s"
+msgstr "不能重定向: %s"
+
+#: src/usb-device-widget.c:470
+#, c-format
+msgid "Select USB devices to redirect (%d free channel)"
+msgid_plural "Select USB devices to redirect (%d free channels)"
+msgstr[0] "Select USB devices to redirect (%d free channel)"
+msgstr[1] "Select USB devices to redirect (%d free channel)"
+msgstr[2] "Select USB devices to redirect (%d free channel)"
+
+#: src/usb-device-widget.c:488
+msgid "Redirecting USB Device..."
+msgstr "重定向USB设备..."
+
+#: src/usb-device-widget.c:496
+msgid "No USB devices detected"
+msgstr "未检测到USB设备"
+
+#: src/usbutil.c:259
+msgid "USB"
+msgstr "USB"
+
+#: src/usbutil.c:261
+msgid "Device"
+msgstr "设备"
+
+#: tools/spice-cmdline.c:36
+msgid "Spice server uri"
+msgstr "Spice 服务器 uri"
+
+#: tools/spice-cmdline.c:37
+msgid "<uri>"
+msgstr "<uri>"
+
+#: tools/spice-cmdline.c:43
+msgid "Spice server address"
+msgstr "Spice 服务器地址"
+
+#: tools/spice-cmdline.c:44
+msgid "<host>"
+msgstr "<主机>"
+
+#: tools/spice-cmdline.c:50
+msgid "Spice server port"
+msgstr "Spice 服务器端口"
+
+#: tools/spice-cmdline.c:51 tools/spice-cmdline.c:58
+msgid "<port>"
+msgstr "<端口>"
+
+#: tools/spice-cmdline.c:57
+msgid "Spice server secure port"
+msgstr "Spice 服务器安全端口 "
+
+#: tools/spice-cmdline.c:64
+msgid "Server password"
+msgstr "服务器密码"
+
+#: tools/spice-cmdline.c:65
+msgid "<password>"
+msgstr "<密码>"
+
+#: tools/spice-cmdline.c:76
+msgid "Spice connection options:"
+msgstr "Spice 连接选项："
+
+#: tools/spice-cmdline.c:77
+msgid "Show Spice options"
+msgstr "显示Spice选项"
+
+#, c-format
+#~ msgid "usbredir protocol parse error for %s"
+#~ msgstr "%s的Usbredir协议解析错误"
+
+#, c-format
+#~ msgid "%s rejected by host"
+#~ msgstr "%s被主机拒绝"
+
+#, c-format
+#~ msgid "%s disconnected (fatal IO error)"
+#~ msgstr "%s断开连接(致命的IO错误)"
+
+#, c-format
+#~ msgid "Unknown error (%d) for %s"
+#~ msgstr "%s的未知错误(%d)"
+
+#, c-format
+#~ msgid "%s %s %s at %d-%d"
+#~ msgstr "%s %s %s at %d-%d"
